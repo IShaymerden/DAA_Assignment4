@@ -1,0 +1,21 @@
+Assignment 4 validation - Iskander Shaimerdinov, SE-2524
+
+Java: Oracle JDK 25.0.1; Maven: 3.9.12; target Java release: 17.
+JUnit 5.11.4: 17 tests passed, 0 failures, 0 errors, 0 skipped.
+Includes 100 random short edit pairs, 100 random search comparisons against
+Java indexOf, and 100 random LPS arrays checked against their definition.
+
+Experiment: 108 distinct algorithm/input/size cases, 5 timed runs each.
+Raw CSV: 540 rows. Each result verified outside the timed region.
+Second complete run: every non-time field matched for all 540 rows,
+including input SHA-256, seed, answers and every counter.
+Each case has exactly five run indices; summaries use the median.
+Both searches cover 4 sizes, recursive edit covers 6, DP versions cover 11.
+All algorithms cover 3 input types, including adversarial input.
+
+Executable JAR demo matches reference distances, matches and LPS.
+Four PNG charts generated from raw CSV by the project's Java2D renderer.
+REPORT.pdf: 4 pages, visually reviewed for legibility and clipping.
+
+Timing caveat: the original measured run briefly overlapped Maven packaging.
+The report discloses this; operation counts, not timing alone, support growth claims.

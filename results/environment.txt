@@ -1,0 +1,7 @@
+timestamp_utc=2026-11-08T18:22:01.780302700Z
+java=25.0.1
+vm=Java HotSpot(TM) 64-Bit Server VM
+os=Windows 11 amd64
+processors=12
+seed=25242026
+runs_per_case=5
