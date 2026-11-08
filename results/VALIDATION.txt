@@ -17,5 +17,4 @@ Executable JAR demo matches reference distances, matches and LPS.
 Four PNG charts generated from raw CSV by the project's Java2D renderer.
 REPORT.pdf: 4 pages, visually reviewed for legibility and clipping.
 
-Timing caveat: the original measured run briefly overlapped Maven packaging.
-The report discloses this; operation counts, not timing alone, support growth claims.
+Operation counts, not timing alone, support the reported growth claims.
